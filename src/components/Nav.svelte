@@ -5,7 +5,7 @@
 	>
 	<a
 		class="mx-4 text-lg font-mono lowercase hover-underline-animation"
-		href="https://dhruva.is-a.dev"
+		href="https://blog.dhruva.is-a.dev"
 		target="_blank"
 		>/blog
 	</a>
