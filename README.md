@@ -10,5 +10,5 @@ why?
 
 ## 📝 Notes
 
-[ ] dark mode
+[ ] dark mode\
 [ ] good ui
