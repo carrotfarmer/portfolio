@@ -1,59 +1,31 @@
-<script context="module" lang="ts">
-	export const prerender = true;
+<script>
+	import Skills from '../components/Skills.svelte';
+	import AboutMe from '../components/AboutMe.svelte';
+	import Socials from '../components/Socials.svelte';
+	import Contact from '../components/Contact.svelte';
 </script>
 
-<script lang="ts">
-	import Counter from '$lib/Counter.svelte';
-</script>
-
+<!-- title of the page -->
 <svelte:head>
-	<title>Home</title>
+	<title>Dhruva | Fullstack Dev</title>
 </svelte:head>
 
-<section>
-	<h1>
-		<div class="welcome">
-			<picture>
-				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
-			</picture>
-		</div>
+<!-- header -->
+<h2 class="font-bold font-mono text-2xl text-blue-400 text-center">hey nerd,</h2>
+<h1
+	class="font-mono font-bold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-800 text-center py-5"
+>
+	I'm Dhruva.
+</h1>
 
-		to your new<br />SvelteKit app
-	</h1>
+<!-- about me && more about me section -->
+<AboutMe />
 
-	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
+<!-- Skills/Knowledge section -->
+<Skills />
 
-	<Counter />
-</section>
+<!-- Social Links section -->
+<Socials />
 
-<style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 1;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
-</style>
+<!-- Contact Me section -->
+<Contact />
