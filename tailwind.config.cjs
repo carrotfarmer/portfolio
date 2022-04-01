@@ -1,5 +1,4 @@
 module.exports = {
 	mode: 'jit',
-	purge: ['./src/**/*.svelte'],
-	darkMode: 'class'
+	purge: ['./src/**/*.svelte']
 };

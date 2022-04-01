@@ -1,13 +1,14 @@
 <nav class="flex justify-center w-full py-5">
-	<a class="mx-4 text-lg font-mono lowercase hover-underline-animation" href="/">/home</a>
-	<a class="mx-4 text-lg font-mono lowercase hover-underline-animation" href="/projects"
-		>/projects</a
-	>
+	<a class="mx-4 text-lg font-mono lowercase hover-underline-animation " href="/">/home</a>
+	<a class="mx-4 text-lg font-mono lowercase hover-underline-animation" href="/projects">
+		/projects
+	</a>
 	<a
 		class="mx-4 text-lg font-mono lowercase hover-underline-animation"
 		href="https://blog.dhruva.is-a.dev"
 		target="_blank"
-		>/blog
+	>
+		/blog
 	</a>
 </nav>
 
