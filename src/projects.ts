@@ -1,14 +1,8 @@
-export type Project = {
-	name: string;
-	description: string;
-	url: string;
-	githubUrl: string;
-	hasWebsite: boolean;
-};
+import type { Project } from './types';
 
 export const projects: Project[] = [
 	{
-		name: 'Cubdeck',
+		name: 'Cubedeck',
 		description:
 			'A web app for cubers to keep track of their solve times and compete with their friends with group solves.',
 		url: 'https://cubedeck.netlify.app',
